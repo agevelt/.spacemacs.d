@@ -46,8 +46,9 @@ values."
      markdown
      org
      ,(if (eq system-type 'darwin)
-        'osx
+          'osx
         'org)
+     parinfer
      (ranger :variables
              ranger-show-preview t)
      aj-javascript
