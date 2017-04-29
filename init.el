@@ -49,7 +49,7 @@ values."
        osx)
      (ranger :variables
              ranger-show-preview t)
-     ;;aj-javascript
+     aj-javascript
      shell
      spell-checking
      syntax-checking
