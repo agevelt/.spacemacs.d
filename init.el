@@ -312,7 +312,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
 
   ;; only do mac stuff on mac systems
-  (when (eq system-name 'darwin)
+  (when (eq system-type 'darwin)
     (setq-default mac-right-option-modifier nil))
 
   (setq-default
