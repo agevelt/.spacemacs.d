@@ -46,7 +46,7 @@ values."
      markdown
      org
      ,(if (eq system-type 'darwin)
-          'osx
+          '(osx :variables osx-use-option-as-meta nil)
         'org)
      parinfer
      (ranger :variables
