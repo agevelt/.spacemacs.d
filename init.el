@@ -42,6 +42,7 @@ values."
      emacs-lisp
      git
      html
+     ivy
      javascript
      markdown
      org
