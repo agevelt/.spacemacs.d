@@ -310,8 +310,9 @@ layers configuration. You are free to put any user code."
   ;; Fix powerline issues
   (setq powerline-default-separator 'utf-8)
 
-  ;; Remove title bars
-  (setq default-frame-alist '((undecorated . t)))
+  ;; Match title bar to theme
+  (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+  (add-to-list 'default-frame-alist '(ns-appearance . dark))
 
   ;; Increase the flycheck tooltip box duration to 60s
   (setq flycheck-pos-tip-timeout 60)
