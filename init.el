@@ -32,7 +32,7 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   `(graphviz
+   `(
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
@@ -45,12 +45,15 @@ This function should only modify configuration layer settings."
      dash
      emacs-lisp
      git
+     graphviz
      (haskell :variables
               haskell-completion-backend 'intero)
+     html
      javascript
      markdown
      org
      ,(when (eq system-type 'darwin) 'osx) ;; Only enable osx layer on osx
+     purescript
      racket
      restclient
      (shell :variables
